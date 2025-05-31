@@ -116,8 +116,8 @@ position = np.array(ds.ImagePositionPatient)
 print("Row direction cosines:", row_cosines)
 print("Column direction cosines:", col_cosines)
 print("Image position (slice origin):", position)
-
-## Loading and Reading Medical Imaging Files: NIfTI vs DICOM
+```
+## Difference between: NIfTI vs DICOM
 
 
 | Aspect                | NIfTI                                      | DICOM                                                   |
@@ -132,4 +132,7 @@ print("Image position (slice origin):", position)
 
 ---
 
+### Conclusion
+
+This report demonstrated effective loading, preprocessing, and visualization of 3D medical images in NIfTI and DICOM formats. NIfTI’s single-file format and affine matrix simplify orientation handling, while DICOM requires more manual steps due to multiple slices and metadata tags. The interactive viewer helped verify and correct image orientation, ensuring accurate anatomical representation. Overall, the work highlights key differences between formats and the importance of proper orientation for medical image analysis.
 
