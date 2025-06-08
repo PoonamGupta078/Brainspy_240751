@@ -41,6 +41,8 @@ The VGG19 model has the same basic idea as the VGG16 model, with the exception t
 A Convolutional Neural Network (CNN), also known as ConvNet, is a specialized type of deep learning algorithm mainly designed for tasks that necessitate object recognition, including image classification, detection, and segmentation.
 
 We have used CNN models with different layers – 8, 12, 14 and 19. It was expected that the accuracy would increase on adding more layers but that turned out to be false. At first the accuracy increased from 70.20% in 8-layer to 86.84% in 12-layer since more features are getting extracted. But then it declines to 67.29% in 14-layer and 10% in 19-layer. Due to overfitting, additional stacked layers slow network speed. Specifically the model has reduced training error but larger testing error. As the network depth rises, the accuracy saturates and declines quickly.
+
+
 CNN14 
 ![image](https://github.com/user-attachments/assets/e15a53df-423a-479c-8845-aeb482fe294c)
 
