@@ -44,15 +44,19 @@ We have used CNN models with different layers – 8, 12, 14 and 19. It was expec
 
 
 CNN14 
+
 ![image](https://github.com/user-attachments/assets/e15a53df-423a-479c-8845-aeb482fe294c)
 
 CNN12
+
 ![image](https://github.com/user-attachments/assets/0069001b-1a68-4dd4-aafb-9e3e7d0edf04)
 
 CNN19
+
 ![image](https://github.com/user-attachments/assets/31679d22-aafb-497a-ad2d-b0048763deee)
 
 CNN8
+
 ![image](https://github.com/user-attachments/assets/a175a829-89d6-4878-a473-9c20a944b48c)
 
 ResNet models
